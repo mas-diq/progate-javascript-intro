@@ -2,7 +2,7 @@ let n = 10;
 let m = 20;
 let o = 30;
 
-switch (n) {
+switch (o) {
     case 10:
         if (n > 4) {
             if (m > n || m > o) {

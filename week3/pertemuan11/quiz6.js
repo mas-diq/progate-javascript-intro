@@ -1,4 +1,4 @@
-const makanan = "nasgor";
+const makanan = "nasgo";
 
 switch (makanan) {
     case "nasgor":

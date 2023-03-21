@@ -8,5 +8,4 @@ if (n > 5) {
     if (n > 6) {
         console.log("cetak 6");
     }
-    console.log("test");
 }
