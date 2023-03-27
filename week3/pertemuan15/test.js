@@ -1,13 +1,22 @@
-let mahasiswa = {
-    nama: "Joko",
-    kegiatan: () => {
-        console.log("kuliah, pulang");
-    },
-    nilai: (n) => {
-        console.log(`IPK Sebesar ${n}`);
+class Kendaraan {
+    constructor(roda, kursi) {
+        this.roda = roda;
+        this.kursi = kursi;
+    }
+    info() {
+        console.log(`rodanya ada ${this.roda}`);
     }
 }
 
-console.log(mahasiswa.nama);
-mahasiswa.kegiatan();
-mahasiswa.nilai(3.4);
+class Mobil extends Kendaraan {
+    constructor(roda, kursi, harga) {
+        super(roda, kursi);
+        this.harga = harga
+    }
+    info() {
+        console.log(`Kursinya ada ${this.kursi}`);
+    }
+}
+
+let avanza = new Mobil(4, 2, 250);
+console.log(avanza);

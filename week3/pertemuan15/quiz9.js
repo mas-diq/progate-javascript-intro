@@ -12,7 +12,7 @@ class Kendaraan {
 
 class Mobil extends Kendaraan {
     info() {
-        console.log(`${this.nama} anda harga sebesar ${this.harga} juta rupiah`);
+        console.log(`${this.nama} anda harganya sebesar ${this.harga} juta rupiah`);
     }
 }
 
