@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync"
+import readlineSync from "readline-sync";
 
 class Kendaraan {
     constructor(kendaraan, merek, tipe, kecepatan) {
